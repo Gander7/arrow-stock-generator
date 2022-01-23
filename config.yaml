@@ -1,0 +1,89 @@
+---
+mundane:
+  # Mundane arrows are treated separatly from magical and are a static price
+  # for a certain size though there still only a chance that the vendor will
+  # have them.
+  chance: 75  # Chance that the arrow type will be in stock
+  stock: 2d20 # Dice to roll to see how many arrows that are in stock
+  arrows:
+    - name: "Adamantium Arrow"
+      price: 25 # Price per bundle of arrows
+      bundle: 1 # How many arrows are in a bundle for this arrow type
+    - name: "Broadhead Arrow"
+      price: 1
+      bundle: 10
+    - name: "Hammerhead Arrow"
+      price: 1
+      bundle: 10
+    - name: "Normal Arrow"
+      price: 1
+      bundle: 20
+    - name: "Smoking Arrow"
+      price: 1
+      bundle: 1
+    - name: "Silvered Arrow"
+      price: 10
+      bundle: 1
+common:
+  chance: 50  # Chance that the shop will have the arrow in percentage
+  stock: 1d20 # Will roll this to determine how many arrows in stock
+  price: 10   # Price in gold pieces
+  variance: 5 # Variance in price in gold pieces, can be -5 to +5
+  arrows:
+    - name: "Acid Arrow X"
+    - name: "Cold Arrow X"
+    - name: "Firestorm Arrow X"
+    - name: "Healing Arrow X"
+    - name: "Lightning Arrow X"
+    - name: "Mind Piercer Arrow X"
+    - name: "Necrotic Arrow X"
+    - name: "Radiant Arrow X"
+    - name: "Sleep Arrow X"
+    - name: "Siege Arrow X"
+    - name: "Survival Arrow X"
+    - name: "Tracking Arrow X"
+uncommon:
+  chance: 40
+  stock: 1d8
+  price: 30
+  variance: 10
+  arrows:
+    - name: "Angry Hornet"
+    - name: "Arrow of Unpleasant Herbs"
+    - name: "Bullseye Arrow"
+    - name: "Crimson Starfall Arrow"
+    - name: "Enraging Arrow"
+    - name: "Ensnaring Arrow"
+    - name: "Exploding Arrow X"
+    - name: "Magnet Arrow"
+    - name: "Paralysis Arrow X"
+    - name: "Sand Arrow X"
+    - name: "Signalling Arrow X"
+    - name: "Web Arrow"
+rare:
+  chance: 15
+  stock: 1d6
+  price: 125
+  variance: 50
+  arrows:
+    - name: "Deadfall Arrow"
+veryrare:
+  chance: 5
+  stock: 1d4
+  price: 1500
+  variance: 250
+  arrows:
+    - name: "Arrow of Grabbing"
+    - name: "Arrow of Dragon Slaying"
+    - name: "Arrow of Giant Slaying"
+    - name: "Arrow of Devil Slaying"
+    - name: "Arrow of Demon Slaying"
+    - name: "Arrow of Undead Slaying"
+    - name: "Arrow of Construct Slaying"
+    - name: "Arrow of the Ancients"
+legendary:
+  chance: 0
+  stock: 1d4
+  price: 15000
+  variance: 2500
+  arrows: []
