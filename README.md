@@ -21,30 +21,31 @@ NOTE: In Config there are some arrows with an X in their name. I use dndbeyond f
 
 ### Example Output
 
+Based off committed config
+
 ```
 ## Mundane Arrows ##
-25gp/1  Stock:34        Adamantium Arrow
-1gp/10  Stock:10        Broadhead Arrow
-1gp/10  Stock:21        Hammerhead Arrow
-1gp/20  Stock:240       Normal Arrow
-10gp/1  Stock:18        Silvered Arrow
-1gp/1   Stock:26        Smoking Arrow
+25gp/1  Stock:22        Adamantium Arrow
+1gp/10  Stock:15        Broadhead Arrow
+1gp/10  Stock:36        Hammerhead Arrow
+1gp/20  Stock:200       Normal Arrow
+10gp/1  Stock:17        Silvered Arrow
+1gp/1   Stock:34        Smoking Arrow
 
 ## Common Arrows ##
-8gp/1   Stock:23        Acid Arrow X
-12gp/1  Stock:33        Cold Arrow X
-9gp/1   Stock:7 Healing Arrow X
-6gp/1   Stock:8 Lightning Arrow X
-9gp/1   Stock:33        Mind Piercer Arrow X
-11gp/1  Stock:34        Necrotic Arrow X
-12gp/1  Stock:34        Radiant Arrow X
-11gp/1  Stock:31        Siege Arrow X
-13gp/1  Stock:27        Sleep Arrow X
+5gp/1   Stock:19        Acid Arrow X
+8gp/1   Stock:19        Firestorm Arrow X
+10gp/1  Stock:28        Healing Arrow X
+15gp/1  Stock:12        Siege Arrow X
+7gp/1   Stock:14        Sleep Arrow X
+15gp/1  Stock:20        Tracking Arrow X
 
 ## Uncommon Arrows ##
-20gp/1  Stock:17        Enraging Arrow
-20gp/1  Stock:19        Sand Arrow X
-36gp/1  Stock:33        Web Arrow
+23gp/1  Stock:23        Arrow of Unpleasant Herbs
+34gp/1  Stock:20        Bullseye Arrow
+24gp/1  Stock:31        Crimson Starfall Arrow
+35gp/1  Stock:31        Enraging Arrow
+21gp/1  Stock:27        Web Arrow
 ```
 
 ## Questions/Issues
